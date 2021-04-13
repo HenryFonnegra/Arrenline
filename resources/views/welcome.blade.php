@@ -46,7 +46,7 @@
 
             .title {
                 font-size: 84px;
-                cristian es gay
+                te lo entierro
             }
 
             .links > a {
