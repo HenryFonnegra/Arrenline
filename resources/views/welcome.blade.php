@@ -46,7 +46,6 @@
 
             .title {
                 font-size: 84px;
-                te lo entierro
             }
 
             .links > a {
