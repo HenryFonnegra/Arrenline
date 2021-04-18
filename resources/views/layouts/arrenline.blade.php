@@ -36,9 +36,10 @@
             <div class="agile-main-top">
                 <div class="container-fluid">
                     <div class="row main-top-w3l py-2">
+
                         <div class="col-lg-4 header-most-top">
                             <p class="text-white text-lg-left text-center">Arriendos Online
-                                <i class="fas fa-shopping-cart ml-1"></i>
+                                <!-- <i class="fas fa-shopping-cart ml-1"></i> -->
                             </p>
                         </div>
 
@@ -47,22 +48,19 @@
                             <ul>
                                 <li class="text-center border-right text-white">
                                     <a class="play-icon popup-with-zoom-anim text-white" href="#small-dialog1">
-                                        <i class="fas fa-map-marker mr-2"></i>Select Location</a>
+                                        <i class="fas fa-map-marker mr-2"></i>Ubicacion</a>
+                                </li>
+
+                                <li class="text-center border-right text-white">
+                                    <i class="fas fa-phone mr-2"></i> +57 314 544 8552
                                 </li>
                                 <li class="text-center border-right text-white">
                                     <a href="#" data-toggle="modal" data-target="#exampleModal" class="text-white">
-                                        <i class="fas fa-truck mr-2"></i>Track Order</a>
-                                </li>
-                                <li class="text-center border-right text-white">
-                                    <i class="fas fa-phone mr-2"></i> 001 234 5678
-                                </li>
-                                <li class="text-center border-right text-white">
-                                    <a href="#" data-toggle="modal" data-target="#exampleModal" class="text-white">
-                                        <i class="fas fa-sign-in-alt mr-2"></i> Log In </a>
+                                        <i class="fas fa-sign-in-alt mr-2"></i> Iniciar seccion </a>
                                 </li>
                                 <li class="text-center text-white">
                                     <a href="#" data-toggle="modal" data-target="#exampleModal2" class="text-white">
-                                        <i class="fas fa-sign-out-alt mr-2"></i>Register </a>
+                                        <i class="fas fa-sign-out-alt mr-2"></i>Registrarse </a>
                                 </li>
                             </ul>
 
@@ -554,21 +552,6 @@
                                         <button class="btn my-2 my-sm-0" type="submit">Buscar</button>
                                     </form>
                                 </div>
-
-
-                                <!-- Icono de carrito negro -->
-                                <div class="col-2 top_nav_right text-center mt-sm-0 mt-2">
-                                    <div class="wthreecartaits wthreecartaits2 cart cart box_1">
-                                        <form action="#" method="post" class="last">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="display" value="1">
-                                            <button class="btn w3view-cart" type="submit" name="submit" value="">
-                                                <i class="fas fa-cart-arrow-down"></i>
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
 
@@ -580,32 +563,13 @@
             <div class="navbar-inner">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="agileits-navi_search">
-                            <form action="#" method="post">
-                                <select id="agileinfo-nav_search" name="agileinfo_search" class="border" required="">
-                                    <option value="">All Categories</option>
-                                    <option value="Televisions">Televisions</option>
-                                    <option value="Headphones">Headphones</option>
-                                    <option value="Computers">Computers</option>
-                                    <option value="Appliances">Appliances</option>
-                                    <option value="Mobiles">Mobiles</option>
-                                    <option value="Fruits &amp; Vegetables">Tv &amp; Video</option>
-                                    <option value="iPad & Tablets">iPad & Tablets</option>
-                                    <option value="Cameras & Camcorders">Cameras & Camcorders</option>
-                                    <option value="Home Audio & Theater">Home Audio & Theater</option>
-                                </select>
-                            </form>
-                        </div>
-
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto text-center mr-xl-5">
+
+                            <ul class="navbar-nav">
+
                                 <li class="nav-item active mr-lg-2 mb-lg-0 mb-2">
-                                    <a class="nav-link" href="index.html">Home
+                                    <a class="nav-link" href="">Inicio
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
