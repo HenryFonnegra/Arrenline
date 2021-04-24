@@ -79,7 +79,21 @@ label {
 
 /*-- top-header --*/
 
+/*-- Color y tamaño barra azul --*/
 .main-top-w3l {
+    height: 50px;
+    /*--background: #0879c9;--*/
+    /*--background: #126e82;--*/
+    /*--background: #132c33;--*/
+    /*--background: #51c4d3;--*/
+    /*--background: #d8e3e7;--*/
+
+    /*--background: linear-gradient(90deg,#51c4d3, #132c33);--*/
+    /*--background: linear-gradient(90deg,#132c33, #d8e3e7);--*/
+    /*--background: linear-gradient(90deg,#51c4d3, #d8e3e7);--*/
+    /*--background: linear-gradient(90deg,#126e82, #d8e3e7);--*/
+
+
     background: #0879c9;
 }
 
@@ -262,6 +276,11 @@ button.w3view-cart {
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.13);
 }
 
+/*-- Centrar opciones de menu --*/
+.navbar-nav{
+    margin: auto;
+}
+
 .navbar-light .navbar-nav .nav-link {
     letter-spacing: 1px;
     font-size: 15px;
@@ -320,10 +339,11 @@ ul.multi-column-dropdown li a:hover {
 
 /*-- banner --*/
 
+
 /*-- carousel-slider --*/
 
 .carousel-item.item1 {
-    background: url(../images/b1.jpg) no-repeat center;
+    background: url(../../../dist/img/Carousel/b1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -332,7 +352,7 @@ ul.multi-column-dropdown li a:hover {
 }
 
 .carousel-item.item2 {
-    background: url(../images/b2.jpg) no-repeat center;
+    background: url(../../../dist/img/Carousel/b2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -341,7 +361,7 @@ ul.multi-column-dropdown li a:hover {
 }
 
 .carousel-item.item3 {
-    background: url(../images/b3.jpg) no-repeat center;
+    background: url(../../../dist/img/Carousel/b3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -350,7 +370,7 @@ ul.multi-column-dropdown li a:hover {
 }
 
 .carousel-item.item4 {
-    background: url(../images/b4.jpg) no-repeat center;
+    background: url(../../../dist/img/Carousel/b4.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -579,6 +599,10 @@ h3.tittle-w3l span {
 
 .men-thumb-item {
     position: relative;
+}
+
+.men-thumb-item img {
+    width: 70%; height: 250px;
 }
 
 #PPminicarts .minicarts-submit img {
@@ -2186,19 +2210,19 @@ div#testimonials h4.m-title {
 	display: inherit;
 }
 
-/*-- placeholder-color 
+/*-- placeholder-color
 
 ::-webkit-input-placeholder {
     color: #fff;
 }
 
 :-moz-placeholder {
-    /* Firefox 18- 
+    /* Firefox 18-
     color: #fff;
 }
 
 ::-moz-placeholder {
-    /* Firefox 19+ 
+    /* Firefox 19+
     color: #fff;
 }
 
