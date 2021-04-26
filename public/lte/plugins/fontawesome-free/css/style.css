@@ -88,13 +88,15 @@ label {
     /*--background: #51c4d3;--*/
     /*--background: #d8e3e7;--*/
 
+    background: #3441BB;
+
     /*--background: linear-gradient(90deg,#51c4d3, #132c33);--*/
     /*--background: linear-gradient(90deg,#132c33, #d8e3e7);--*/
     /*--background: linear-gradient(90deg,#51c4d3, #d8e3e7);--*/
     /*--background: linear-gradient(90deg,#126e82, #d8e3e7);--*/
 
 
-    background: #0879c9;
+    /*-- background: linear-gradient(90deg,#3441BB, #34BB6B); --*/
 }
 
 .header-most-top p {
@@ -219,9 +221,14 @@ input[type="submit"] {
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.22);
 }
 
+/* Pasar mouse */
+.agileits_search button:hover{
+    background: #34BB6B;
+}
+
 .agileits_search button {
     border-radius: 0;
-    background: #F45C5D;
+    background: #3441BB;
     color: #fff;
     width: 20%;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.22);
@@ -233,7 +240,7 @@ input[type="submit"] {
 /*-- logo --*/
 
 .logo_agile h1 a {
-    color: #F45C5D;
+    color: #3441BB;
     font-size: 38px;
     text-decoration: none;
     letter-spacing: 1px;
@@ -244,10 +251,13 @@ input[type="submit"] {
     text-decoration: none;
 }
 
+/* Logo configurar */
 .logo_agile h1 a img {
-    position: absolute;
+    position: center;
     left: -40%;
     top: -23px;
+    height: 60%;
+    width: 40%;
 }
 
 .logo_agile {

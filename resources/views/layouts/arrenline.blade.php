@@ -48,6 +48,12 @@
                         <div class="col-lg-8 header-right mt-lg-0 mt-2">
                             <!-- Opciones barra azul -->
                             <ul>
+
+                                <li class="text-center border-right text-white">
+                                </li>
+                                <li class="text-center border-right text-white">
+                                </li>
+
                                 <li class="text-center border-right text-white">
                                     <i class="fas fa-phone mr-2"></i> +57 314 544 8552
                                 </li>
@@ -106,7 +112,7 @@
             </div>
 
         	<!-- register -->
-            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <!-- <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -146,7 +152,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- header-bottom-->
             <div class="header-bot">
@@ -155,8 +161,9 @@
                         <!-- Logo y nombre -->
                         <div class="col-md-3 logo_agile">
                             <h1 class="text-center">
-                                <a href="" class="font-weight-bold font-italic">
-                                    Arrenline
+                                <a href="#" class="font-weight-bold font-italic">
+                                    <img src="{{ asset('lte/dist/img/Logo2.png') }}" alt="" class="img-fluid">
+                                     Arrenline
                                 </a>
                             </h1>
                         </div>
@@ -168,7 +175,9 @@
                                 <div class="col-10 agileits_search">
                                     <form class="form-inline" action="#" method="post">
                                         <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" required>
-                                        <button class="btn my-2 my-sm-0" type="submit">Buscar</button>
+                                        <button class="btn my-2 my-sm-0" type="submit">
+                                            <b> Buscar </b>
+                                        </button>
                                     </form>
                                 </div>
                             </div>
@@ -179,7 +188,7 @@
             </div>
 
         	<!-- Barra de opciones -->
-            <div class="navbar-inner">
+            <!-- <div class="navbar-inner">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
@@ -369,7 +378,7 @@
                         </div>
                     </nav>
                 </div>
-            </div>
+            </div> -->
 
 
 
