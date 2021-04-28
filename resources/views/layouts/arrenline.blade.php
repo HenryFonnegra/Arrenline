@@ -396,7 +396,18 @@
             </div>
         </div>
 
+        <section class="copyright">
+            <div class="copy-right py-3">
+                <div class="container">
+                    <p class="text-center text-white">© 2021 Arrenline. Derechos reservados | Diseñado por
+                        <a href=""> CFJPP.</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
     </body>
+
 
     <!-- jQuery -->
     <script src="{{ asset('lte/plugins/jquery/jquery.min.js') }}"></script>
