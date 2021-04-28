@@ -188,7 +188,7 @@
             </div>
 
 
-            <div class="col-md-12 ">
+            <div style="width: 100%">
                 <div class="login-or">
                     <hr class="hr-or">
                 </div>
