@@ -159,7 +159,7 @@
                 <div class="container">
                     <div class="row header-bot_inner_wthreeinfo_header_mid">
                         <!-- Logo y nombre -->
-                        <div class="col-md-3 logo_agile">
+                        <div class="col-md-3 logo_agile" >
                             <h1 class="text-center">
                                 <a href="#" class="font-weight-bold font-italic">
                                     <img src="{{ asset('lte/dist/img/Logo2.png') }}" alt="" class="img-fluid">
@@ -184,6 +184,13 @@
                         </div>
 
                     </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 ">
+                <div class="login-or">
+                    <hr class="hr-or">
                 </div>
             </div>
 
