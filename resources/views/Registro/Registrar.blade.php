@@ -1,3 +1,4 @@
+@extends('layouts.arrenline')
 @section('content')
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
