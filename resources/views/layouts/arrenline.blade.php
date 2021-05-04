@@ -159,7 +159,7 @@
                 <div class="container">
                     <div class="row header-bot_inner_wthreeinfo_header_mid">
                         <!-- Logo y nombre -->
-                        <div class="col-md-3 logo_agile">
+                        <div class="col-md-3 logo_agile" >
                             <h1 class="text-center">
                                 <a href="#" class="font-weight-bold font-italic">
                                     <img src="{{ asset('lte/dist/img/Logo2.png') }}" alt="" class="img-fluid">
@@ -184,6 +184,13 @@
                         </div>
 
                     </div>
+                </div>
+            </div>
+
+
+            <div style="width: 100%">
+                <div class="login-or">
+                    <hr class="hr-or">
                 </div>
             </div>
 
@@ -389,7 +396,18 @@
             </div>
         </div>
 
+        <section class="copyright">
+            <div class="copy-right py-3">
+                <div class="container">
+                    <p class="text-center text-white">© 2021 Arrenline. Derechos reservados | Diseñado por
+                        <a href=""> CFJPP.</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
     </body>
+
 
     <!-- jQuery -->
     <script src="{{ asset('lte/plugins/jquery/jquery.min.js') }}"></script>
