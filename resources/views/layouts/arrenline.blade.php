@@ -40,7 +40,7 @@
                     <div class="row main-top-w3l py-2">
 
                         <div class="col-lg-4 header-most-top">
-                            <p class="text-white text-lg-left text-center">Arriendos Online
+                            <p class="text-white text-lg-left text-center"> <a href="/" class="text-white"> Arriendos Online</a>
                                 <!-- <i class="fas fa-shopping-cart ml-1"></i> -->
                             </p>
                         </div>
@@ -58,11 +58,11 @@
                                     <i class="fas fa-phone mr-2"></i> +57 314 544 8552
                                 </li>
                                 <li class="text-center border-right text-white">
-                                    <a href="#" data-toggle="modal" data-target="#exampleModal" class="text-white">
+                                    <a href='/login' data-toggle="modal"  class="text-white">
                                         <i class="fas fa-sign-in-alt mr-2"></i> Iniciar seccion </a>
                                 </li>
                                 <li class="text-center text-white">
-                                    <a href="#" data-toggle="modal" data-target="#exampleModal2" class="text-white">
+                                    <a href="registrar" class="text-white">
                                         <i class="fas fa-sign-out-alt mr-2"></i>Registrarse </a>
                                 </li>
                             </ul>
